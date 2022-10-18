@@ -1,0 +1,28 @@
+:root
+{
+    --favcolor: rgb(155, 217, 245);
+}
+h1
+{
+    text-align: center;
+    color: var(--favcolor);
+    background-color: rgb(47, 7, 248);
+    font-size: 32pt;
+}
+section
+{
+    color: green;
+    
+}
+p
+{
+    color: red
+}
+#pic
+{
+    border-radius: 8px;
+}
+div.button
+{
+    text-align: center;
+}

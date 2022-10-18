@@ -2,12 +2,17 @@
 {
     --favcolor: rgb(155, 217, 245);
 }
+body
+{
+    background-color: lightblue;
+   
+}
 h1
 {
     text-align: center;
     color: var(--favcolor);
     background-color: rgb(47, 7, 248);
-    font-size: 32pt;
+    font-size: 32px;
 }
 section
 {
@@ -17,6 +22,7 @@ section
 p
 {
     color: red
+   
 }
 #pic
 {

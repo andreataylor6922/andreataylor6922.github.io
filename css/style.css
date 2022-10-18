@@ -16,13 +16,13 @@ h1
 }
 section
 {
-    color: green;
+    color: rgb(241, 49, 155);
     
 }
 p
 {
-    color: red
-   
+    font-size: 18pt;
+    color: blueviolet  
 }
 #pic
 {

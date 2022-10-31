@@ -10,19 +10,19 @@
 	<body>
 		<h1>Super Search</h1>
 		<form action="https://www.google.com/search">
-			<div>
+			<p>
 				<label for="query">Search: </label>
 				<input type="text" id="query" name="as_q" placeholder="Enter your search query" size="100">
-			</div>
-			<div>
+			</p>
+			<p>
 				<label for="site">Site: </label>
 				<input type="text" id="site" name="as_sitesearch" placeholder="Enter the site you wish to search" size="40">
-			</div>
-			<div>
+			</p>
+			<p>
 				<label for="images">Images Only</label>
 				<input type="checkbox" id="images" name="tbm" value="isch">
-			</div>
-			<div>
+			</p>
+			
 					<p>Filetype:
 					<select name="as_filetype">
 						<option value=""></option>
@@ -30,24 +30,26 @@
 						<option value="png">Uncompressed</option>
 						<option value="gif">Gif files</option>
 					</select>
-				</p>
-			</div>
-			<div>
-				Site contains the word:
-					<input type="radio" name="as_epq" value="Athletics" id="athletics">
-					<label for="athletics">Athletics</label>
+					</p>
+			
+			<p>
 				
-					<input type="radio" name="as_epq" value="Student Life" id="life">
-					<label for="life">Student Life</label>
+					Site contains the word:
+						<input type="radio" name="as_epq" value="Athletics" id="athletics">
+						<label for="athletics">Athletics</label>
+					
+						<input type="radio" name="as_epq" value="Student Life" id="life">
+						<label for="life">Student Life</label>
 
-					<input type="radio" name="as_epq" value="Housing" id="housing">
-					<label for="housing">Housing</label>
+						<input type="radio" name="as_epq" value="Housing" id="housing">
+						<label for="housing">Housing</label>
+					
+						<input type="radio" name="as_epq" value="Dining" id="dining">
+						<label for="dining">Dining</label>
 				
-					<input type="radio" name="as_epq" value="Dining" id="dining">
-					<label for="dining">Dining</label>
-			</div>
-		
-				<br>
+			
+			</p>
+			<br>
 				<input type="submit" value="Search">
 				
 			

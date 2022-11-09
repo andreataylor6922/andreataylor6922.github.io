@@ -1,0 +1,35 @@
+@font-face {
+    font-family: myserif;
+    src: url(fonts/SawarabiMincho-Regular.ttf);
+}
+@font-face {
+    font-family: mysansserif;
+    src: url(fonts/Roboto-Medium.ttf);
+}
+body
+{
+    background-color: rgb(185, 185, 249);
+}
+h1{
+    font-family: myserif;
+    text-align: center;
+    font-size: 28pt;
+}
+ul{
+    font-family: mysansserif
+}
+p{
+ font-family: Arial, Helvetica, sans-serif;   
+}
+section h2
+{
+    font-size: 18pt;
+    margin: 5px;
+}
+section
+{
+    border: 3px solid black;
+    margin-top: 35px;
+    margin-botton: 35px;
+    padding: 10px;
+}

@@ -23,13 +23,13 @@ img
     margin-left: auto;
     margin-right: auto;
 }
-div.container
+div.nav
 {
     padding-top: 30px;
-
+    justify-content: center;
+    gap: 80px;
+}
 img
 {
     border-radius: 25px;
-}
-
 }
